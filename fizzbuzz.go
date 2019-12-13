@@ -1,7 +1,9 @@
+// Package fizzbuzz buzzes fizzes.
 package main
 
 import (
 	"fmt"
+	"go/doc"
 	"math/rand"
 	"os"
 	"sort"
@@ -14,6 +16,8 @@ type Maybe interface {
 	Bind(func(interface{}) Maybe) Maybe
 }
 
+// Given an array of strings and a search string,
+// contains checks for the inclusion of the search string in the array.
 func contains(s []string, term string) bool {
 	i := sort.SearchStrings(s, term)
 	return i < len(s) && s[i] == term
