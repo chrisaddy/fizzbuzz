@@ -2,7 +2,6 @@
 
 Ye ole `fizzbuzz`.
 
-
 Normal `go build`, then `./fizzbuzz`.
 
 This will run forever, you're welcome.
@@ -20,6 +19,8 @@ You can chain any command-line arguments, order doesn't matter.
 If you're in a weird mood and want to fizzbuzz with a randomly generated sequence
 
 `./fizzbuzz scatter-brained`
+
+If you combine that with `impatient` it'll only ever stop if it lands on the number 100. This is a feature, not a bug.
 
 ## Next Steps
 
