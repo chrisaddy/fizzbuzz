@@ -20,8 +20,10 @@ If you're in a weird mood and want to fizzbuzz with a randomly generated sequenc
 
 `./fizzbuzz scatter-brained`
 
-If you combine that with `impatient` it'll only ever stop if it lands on the number 100. This is a feature, not a bug.
+If you combine that with `impatient` it'll only ever stop if it lands on the number 100. **This is a feature, not a bug.**
 
 ## Next Steps
 
 When fizzbuzz finds a prime number, it screams `PRIMO FIZZ!!!!!!`
+
+I created a `Maybe` interface to basically simulate a Maybe monad that I don't use anywhere. I probably never will if we're being honest.
