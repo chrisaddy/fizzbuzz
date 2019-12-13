@@ -1,0 +1,9 @@
+# FIZZBUZZ
+
+Ye ole `fizzbuzz`.
+
+
+Normal `go build`, then `./fizzbuzz`.
+
+
+**ALL IMPLEMENTATIONS OF FIZZBUZZ WILL RUN IN AN INFINITE LOOP BECAUSE I LIKE IT, IF YOU DON'T, YOUR ONLY OPTION IS CTRL-C.**
